@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/expression/exceptions" isTestSource="false" packagePrefix="expression" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="artifacts" level="project" />
+    <orderEntry type="library" name="SumTest" level="project" />
+    <orderEntry type="library" name="WsppTest" level="project" />
+    <orderEntry type="library" name="ReverseTest" level="project" />
+    <orderEntry type="library" name="WordStatTest" level="project" />
+    <orderEntry type="library" name="FastReverseTest" level="project" />
+    <orderEntry type="module" module-name="prog-intro-2023" />
+    <orderEntry type="module" module-name="paradigms" />
+    <orderEntry type="module" module-name="prog-intro" />
+    <orderEntry type="module" module-name="paradigms-2024" />
+  </component>
+</module>
