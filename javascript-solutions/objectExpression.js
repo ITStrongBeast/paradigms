@@ -234,8 +234,5 @@ function abstractParse(expression) {
     return stackOperands.pop()
 }
 
-// :NOTE: по сообщению "There are not enough operands for the operation: -> +" не очень понятно, где произошла ошибка:
-//      parsePrefix("(+ (* 4 (mean 3 2 5)) (/ (+ (var (cos 3) (+ (+ (atan2 3 5) (negate (negate 4))) (- 3 4)))) 12))")
-
 const parsePrefix = (expression) => abstractParse(expression)
 const parsePostfix = (expression) => abstractParse(expression)
