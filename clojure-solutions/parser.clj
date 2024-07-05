@@ -1,6 +1,3 @@
-; This file should be placed in clojure-solutions
-; You may use it via (load-file "parser.clj")
-
 (defn -return [value tail] {:value value :tail tail})
 (def -valid? boolean)
 (def -value :value)
