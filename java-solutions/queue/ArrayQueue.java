@@ -3,7 +3,6 @@ package queue;
 import java.util.Arrays;
 import java.util.function.Predicate;
 
-// :NOTE: очень странная модель у вас их две, оставьте одну и сделайте контаркты под неё
 // Model: queue[head]...queue[tail] size - количество элементов в очереди
 // Inv: n >= 0 && forall i=1..n: a[i] != null
 // Let: immutable(k): forall i=head...tail: a'[i % elements.length] = a[i % elements.length]

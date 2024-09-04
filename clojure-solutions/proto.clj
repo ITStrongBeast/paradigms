@@ -1,6 +1,3 @@
-; This file should be placed in clojure-solutions
-; You may use it via (load-file "proto.clj")
-
 (defn proto-get
   "Returns object property respecting the prototype chain"
   ([obj key] (proto-get obj key nil))
